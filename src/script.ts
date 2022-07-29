@@ -82,6 +82,7 @@ const startOver = () => {
 
     started = false;
     clickedSequenceArray = [];
+    randomSequenceArray = [];
     level = 0;
 }
 

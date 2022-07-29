@@ -51,6 +51,7 @@ const checkingAnswer = (currentLevel) => {
 const startOver = () => {
     started = false;
     clickedSequenceArray = [];
+    randomSequenceArray = [];
     level = 0;
 };
 const pressedButton = (colorIndex) => {
