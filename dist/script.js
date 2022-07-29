@@ -81,6 +81,6 @@ const buttonAnimation = (color) => {
     }, 200);
 };
 const playingSound = (color) => {
-    const audio = new Audio(`sounds/${color}.mp3`);
+    const audio = new Audio(`./dist/sounds/${color}.mp3`);
     audio.play();
 };

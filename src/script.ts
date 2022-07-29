@@ -117,7 +117,7 @@ const pressedButton = (colorIndex:number) => {
 
 const buttonAnimation = (color:string) => {
 
-    playingSound(color)
+    playingSound(color);
     
     $(`#${color}`).addClass('pressed');
     setTimeout(() => {
@@ -129,7 +129,7 @@ const buttonAnimation = (color:string) => {
 
 const playingSound = (color:string) => {
 
-    const audio = new Audio(`sounds/${color}.mp3`);
+    const audio = new Audio(`./dist/sounds/${color}.mp3`);
     audio.play();
 
 
